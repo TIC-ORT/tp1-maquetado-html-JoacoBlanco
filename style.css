@@ -12,8 +12,12 @@ h1 {
     height: 250px;
 }
 
-div {
+.topBox {
+    position: relative;
+    top: 20%;
+
     background-color: darkorange;
+    left: 10%;
     width: 150px;
     height: 150px;
 }
