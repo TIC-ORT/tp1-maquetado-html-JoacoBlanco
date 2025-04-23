@@ -6,18 +6,55 @@ h1 {
     font-size: medium;
 }
 
- header {
+.topSection {
     display: flex;
-    background-color:orange;
+    background-color: #ffd680;
     height: 250px;
 }
 
 .topBox {
     position: relative;
     top: 20%;
-
-    background-color: darkorange;
     left: 10%;
+
     width: 150px;
     height: 150px;
+
+    background-color: #ffc86d;
+}
+
+.topTextSection {
+    position: relative;
+    top: 20%;
+    left: 35%;
+
+    width: 700px;
+    height: 150px;
+}
+
+.topHeaderText {
+    background-color: #ffb959;
+
+    width:fit-content;
+    padding: 3px;
+}
+
+.lowerSection {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 25%;
+    margin-top: 80px;
+    background-color: wheat;
+
+    width: 100%;
+}
+
+.contentBox {
+    background-color: #c4edf1;
+    position: relative;
+    left: 10%;
+    top: 40%;
+    width: 150px;
+    height: 150px;;
 }
